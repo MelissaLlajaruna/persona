@@ -5,14 +5,16 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
-    private String cancionCamaron;
+    private String colorOjos;
 
-    private String contraseniaBanco;
+    private String ComidaFav;
     private String LoL;
 
     private String universidad;
 
-
+    public String getColorOjos(){
+        return colorOjos;
+    }
     public String getNombre(){
         return nombre;
     }
@@ -28,9 +30,6 @@ public class Persona {
     public int getEdad(){
         return edad;
     }
-    public String getContra(){
-        return contraseniaBanco;
-    }
 
     public String getLoL(){
         return LoL;
@@ -40,13 +39,15 @@ public class Persona {
         return nacionalidad;
     }
 
-    public String getcancionCamaron(){
-        return cancionCamaron;
+    public void setcolorOjos(String ojos){
+        this.colorOjos = ojos;
     }
 
     public void setNombre(String nom){
         this.nombre = nom;
     }
+
+
 
     public void setApellidos(String apell){
         this.apellidos = apell;
@@ -54,9 +55,6 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
-    }
-    public void setContra(String cont){
-        this.contraseniaBanco = cont;
     }
 
     public void setEstudios(String estudios){
@@ -69,6 +67,12 @@ public class Persona {
         this.LoL = LoL;
     }
 
+    public String getComidaFav(){
+        return ComidaFav;
+    }
+    public void setComidaFav(String Comida){
+        this.ComidaFav = Comida;
+    }
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
     }
@@ -90,7 +94,5 @@ public class Persona {
         this.universidad = universidad;
     }
 
-    public void setcancionCamaron (String cancionC){
-        this.cancionCamaron = cancionC;
-    }
+
 }
