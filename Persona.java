@@ -5,7 +5,7 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
-
+    private String cancionCamaron;
 
     private String contraseniaBanco;
     private String LoL;
@@ -38,6 +38,10 @@ public class Persona {
 
     public String getNacionalidad(){
         return nacionalidad;
+    }
+
+    public String getcancionCamaron(){
+        return cancionCamaron;
     }
 
     public void setNombre(String nom){
@@ -84,5 +88,9 @@ public class Persona {
 
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
+    }
+
+    public void setcancionCamaron (String cancionC){
+        this.cancionCamaron = cancionC;
     }
 }
