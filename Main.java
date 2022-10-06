@@ -19,10 +19,12 @@ public class Main {
         p.setEstudios(sc.nextLine());
         System.out.println("Escribe tu línea de LoL preferida: ");
         p.setLoL(sc.nextLine());
+        System.out.println("Indica tu canción favorita de Camaron de la Isla: ");
+        p.setcancionCamaron(sc.nextLine());
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
         System.out.println("Tus estudios son: " + p.getEstudios());
         System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
-
+        System.out.println("Tu canción favorita de camaron es: " + p.getcancionCamaron());
         System.out.println("Escribe tu contraseña del banco ;) : ");
         p.setContra(sc.nextLine());
     }
